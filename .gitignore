@@ -1,0 +1,6 @@
+# dependencies
+node_modules
+# environment files
+backend/.env
+# build outputs
+frontend/build
