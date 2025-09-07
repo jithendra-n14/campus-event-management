@@ -1,4 +1,4 @@
-Project Title- Campus Event Management Platform
+# Project Title- Campus Event Management Platform
 
 - This project is about a prototype implementation of Campus Event Management
 Platform, it is basically a web application/ platform that allows organizers,
@@ -9,19 +9,19 @@ dashboard. It also consists of other important technical features that makes it
 easier for organizers and students to easily create and participate in events and
 thereby accelerating and improved event experiences
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Tech Stack
+
+## Tech Stack
 
 - Frontend: React + React Bootstrap
 - Backend: Node.js + Express.js
 - Database: MongoDB Atlas (via Mongoose ODM)
 - API Testing- Postman.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Setup Instructions
+
+## Setup Instructions
 
 1. Clone Repo
 -      git clone https://github.com/<your-username>/campus-event-management.git
@@ -45,10 +45,10 @@ Run Backend
 -      npm start
 Runs on http://localhost:3000
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-ScreenShots.
+
+## ScreenShots.
 
 1. Landing Page- A login page to choose either Admin Role or Student Role
    
@@ -90,11 +90,11 @@ the most actively participating students and number of student participations to
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prototype Scope (Implemented)
 
-Core Features
+## Prototype Scope (Implemented)
+
+### Core Features
 
 - Event creation, cancellation, reactivation (Admin)
 - Student registration & unregistration
@@ -104,11 +104,11 @@ Core Features
 - Event popularity report
 - Student participation report
 - Top 3 most active students
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Database Design (MongoDB)
 
-Why I Chose MongoDB for the prototype.
+## Database Design (MongoDB)
+
+### Why I Chose MongoDB for the prototype.
 -  The reason I chose MongoDB instead of MySql/ PostgreSql is because of its flexible schema. MongoDB’s document-based schema allows us to store
 variable fields without altering database schemas which you would need to do
 in SQL. Also MongoDB is highly scalable, for a data for 50 colleges with 200
@@ -126,9 +126,9 @@ Scalability Consideration
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-APIs
+
+## APIs
 
 Admin / Events APIs
 -  POST /api/events → Create a new event (Admin only).
@@ -176,9 +176,9 @@ All These API's were tested and implemented using Postman Tool
 - POST /api/students → Register a new student.
    <img width="940" height="474" alt="image" src="https://github.com/user-attachments/assets/f12c0053-9f8e-4676-b05e-ce786cb8bcd7" />
 
-   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  Assumptions & Edge Cases Covered
+
+ ## Assumptions & Edge Cases Covered
 
 - Event IDs unique across all colleges
 - Event codes unique per college
@@ -187,4 +187,3 @@ All These API's were tested and implemented using Postman Tool
 - Enforced event capacity check
 - Reports generated using MongoDB aggregations
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
